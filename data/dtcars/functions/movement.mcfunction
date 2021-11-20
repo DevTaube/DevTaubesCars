@@ -17,7 +17,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:tripwire_hook"}}] at @s as @e[tag
 # rotate it 90 degrees and set it 0 on the horizontal axis
 execute as @a[nbt={SelectedItem:{id:"minecraft:tripwire_hook"}}] at @s as @e[tag=dtcar, limit=1, sort=nearest, distance=..1, scores={dtcarfuel=1..}] at @s run tp @s ~ ~ ~ ~90 0
 # teleport it infront of itself
-execute as @a[nbt={SelectedItem:{id:"minecraft:tripwire_hook"}}] at @s as @e[tag=dtcar, limit=1, sort=nearest, distance=..1, scores={dtcarfuel=1..,dtdrivemode=1}] at @s run tp @s ^0.4 ^ ^
+execute as @a[nbt={SelectedItem:{id:"minecraft:tripwire_hook"}}] at @s as @e[tag=dtcar, limit=1, sort=nearest, distance=..1, scores={dtcarfuel=1..,dtdrivemode=1}] at @s run tp @s ^0.3 ^ ^
 execute as @a[nbt={SelectedItem:{id:"minecraft:tripwire_hook"}}] at @s as @e[tag=dtcar, limit=1, sort=nearest, distance=..1, scores={dtcarfuel=1..,dtcarspeed=1,dtdrivemode=0}] at @s run tp @s ^0.4 ^ ^
 execute as @a[nbt={SelectedItem:{id:"minecraft:tripwire_hook"}}] at @s as @e[tag=dtcar, limit=1, sort=nearest, distance=..1, scores={dtcarfuel=1..,dtcarspeed=2,dtdrivemode=0}] at @s run tp @s ^0.48 ^ ^
 execute as @a[nbt={SelectedItem:{id:"minecraft:tripwire_hook"}}] at @s as @e[tag=dtcar, limit=1, sort=nearest, distance=..1, scores={dtcarfuel=1..,dtcarspeed=3,dtdrivemode=0}] at @s run tp @s ^0.56 ^ ^
