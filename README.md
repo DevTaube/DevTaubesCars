@@ -20,7 +20,7 @@ The highest speed level that can be applied is ten.
 ### Fuel
 Your car needs fuel to drive. One unit of fuel per second, to be exact. \
 If your car lacks fuel it cannot be ridden. \
-Supply your car with ten units of fuel by dropping either a charcoal or normal coal into it. \
+Supply your car with ten units of fuel by dropping either a charcoal or normal coal into it.
 
 ### Using the car
 A car can be ridden by entering it (by right clicking it) and holding a tripwire hook. \
