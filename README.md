@@ -1,6 +1,7 @@
 # DevTaube's Cars
 DevTaube's Cars is a Minecraft datapack that adds working cars to the game! \
-Cars can be crafted and upgraded to be faster and hold more fuel.
+Cars can be crafted and upgraded to be faster and hold more fuel. \
+Made for *1.17.X*, not backwards compatible.
 
 
 ### Spawning a car
